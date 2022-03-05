@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 4.9 CRUD operations</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3 mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Products</h3>
+                </div>
+                <div class="card-body">
+                    <input type="text" class="form-control" placeholder="paroduct name" id="product-name">
+                    <input type="number" class="form-control mt-3" placeholder="price" id="product-price">
+                    <input type="color" class="form-control mt-3" id="product-color">
+                    <button type="button" class="btn btn-success ml-auto d-block mt-3" onclick="addProduct()">Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="row" id="result">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
